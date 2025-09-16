@@ -100,6 +100,8 @@ def main():
 
     user_question = st.text_input("Ask a question from the PDF files")
 
+
+    
     if user_question:
         user_input(user_question)
 
@@ -121,4 +123,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
