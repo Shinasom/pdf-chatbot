@@ -9,7 +9,6 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
 
-
 load_dotenv()
 
 # Azure OpenAI configuration
@@ -122,3 +121,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
